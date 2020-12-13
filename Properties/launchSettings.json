@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MetalCombatReader": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Games\\Super Nintendo\\Roms\\Metal Combat - Falcon's Revenge (U).smc\""
+    }
+  }
+}
