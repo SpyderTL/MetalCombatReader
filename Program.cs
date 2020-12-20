@@ -10,6 +10,8 @@ namespace MetalCombatReader
 
 			RomFile.Load(Arguments.Path);
 
+			System.IO.File.WriteAllBytes(Arguments.Path + ".snes.bin", Snes.Memory);
+
 			MetalCombatApu.Load();
 		}
 	}
